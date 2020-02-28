@@ -7,7 +7,12 @@
     <div class="container">
         <div class="columns">
             <div class="column is-4 has-text-centered">
-                <h4 class="title is-4 has-text-grey-dark">Modulo Gestión UE</h4>
+                <h4 class="title is-4 has-text-grey-dark">
+                    <span class="icon is-small">
+                        <i class="zmdi zmdi-folder"></i>
+                    </span>
+                    &nbsp; Modulo Gestión UE
+                </h4>
             </div>
             <div class="column is-4 has-text-centered">
                 <div class="field is-horizontal">

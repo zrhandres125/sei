@@ -17,7 +17,7 @@
             </div>
 
             <div class="column is-4 is-hidden-mobile">&nbsp;</div>
-            
+
             <div class="column is-4 has-text-centered">
                 <div class="field is-horizontal">
                     <div class="field-label is-normal">
@@ -28,7 +28,7 @@
                             <p class="control is-expanded has-icons-right">
                                 <input class="input is-hovered" type="text" required>
                                 <span class="icon is-small is-right">
-                                    <i class="zmdi zmdi-folder"></i>
+                                    <i class="zmdi zmdi-search"></i>
                                 </span>
                             </p>
                         </div>
@@ -49,16 +49,9 @@
 
         <div class="columns">
             <div class="column is-4 has-text-centered">
-
-                <div class="field is-grouped is-grouped-multiline">
-                    <div class="control">
-                        <div class="tags has-addons">
-                            <span class="tag is-dark">Recomendación</span>
-                            <span class="tag is-info">Registro de indicadores una vez por semana</span>
-                        </div>
-                    </div>
-                </div>
-
+                <p style="margin-top: 5px;">
+                    <strong>U. Experimental: abc-123</strong>
+                </p>
             </div>
 
             <div class="column is-4 has-text-centered">
@@ -88,12 +81,14 @@
                     <span class="icon is-small">
                         <i class="zmdi zmdi-file-text"></i>
                     </span>
-                    <span>Hoja de datos</span>
+                    <span>Hoja de datos UE</span>
                 </a>
             </div>
         </div>
 
-        <form action="#" id="form1" style="margin-top: 50px">
+        <br>
+
+        <form action="#" id="form1">
             <div class="columns">
                 <div class="column is-1 is-hidden-mobile">&nbsp;</div>
                 <div class="column is-4">
@@ -117,7 +112,7 @@
                         <div class="control">
                             <input class="input is-hovered" type="text" name="" id="">
                         </div>
-                        <p class="help">Valor de 0 a 9 con dos posiciones decimales</p>
+                        <p class="help">Valor entre 0 y 9 con dos posiciones decimales</p>
                     </div>
 
                     <div class="field">
@@ -125,18 +120,10 @@
                         <div class="control">
                             <input class="input is-hovered" type="text" name="" id="">
                         </div>
-                        <p class="help">Valor en segundos con cero posiciones decimales</p>
+                        <p class="help">Valor entero en segundos</p>
                     </div>
 
-                    <div class="field">
-                        <label class="label">Inmovilidad tónica</label>
-                        <div class="control">
-                            <input class="input is-hovered" type="text" name="" id="">
-                        </div>
-                        <p class="help">Valor en segundos con cero posiciones decimales</p>
-                    </div>
-
-                    <h5 class="title is-5 has-text-grey-dark" style="margin-top: 30px;">
+                    <h5 class="title is-5 has-text-grey-dark" style="margin-top: 40px;">
                         Variabilidad de la frecuencia cardiaca
                     </h5>
 
@@ -145,7 +132,7 @@
                         <div class="control">
                             <input class="input is-hovered" type="text" name="" id="">
                         </div>
-                        <p class="help">Valor entero de 0 a 500</p>
+                        <p class="help">Valor entero entre 0 y 500</p>
                     </div>
                 </div>
 
@@ -157,7 +144,7 @@
                         <div class="control">
                             <input class="input is-hovered" type="text" name="" id="">
                         </div>
-                        <p class="help">Valor de 0 a 100 con una posición decimal</p>
+                        <p class="help">Valor entre 0 y 100 con una posición decimal</p>
                     </div>
 
                     <div class="field">
@@ -165,7 +152,7 @@
                         <div class="control">
                             <input class="input is-hovered" type="text" name="" id="">
                         </div>
-                        <p class="help">Valor de 0 a 100 con una posición decimal</p>
+                        <p class="help">Valor entre 0 y 100 con una posición decimal</p>
                     </div>
 
                     <div class="field">
@@ -181,7 +168,7 @@
                         <div class="control">
                             <input class="input is-hovered" type="text" name="" id="">
                         </div>
-                        <p class="help">Valor de 0 a 9 con dos posiciones decimales</p>
+                        <p class="help">Valor entre 0 y 9 con dos posiciones decimales</p>
                     </div>
 
                     <div class="field">
@@ -192,9 +179,9 @@
                         <p class="help">Valor en grados centígrados con una posición decimal</p>
                     </div>
 
-                    <div class="field is-grouped" style="margin-top: 30px;">
-                        <div class="control">
-                            <button class="button is-primary is-active" onclick="getData()">
+                    <div class="field is-grouped columns is-centered" style="margin-top: 10px;">
+                        <div class="control column has-text-centered is-4">
+                            <button class="button is-success is-active">
                                 <span class="icon is-small">
                                     <i class="zmdi zmdi-floppy"></i>
                                 </span>
@@ -202,8 +189,8 @@
                             </button>
                         </div>
 
-                        <div class="control">
-                            <button class="button is-primary is-active" type="reset">
+                        <div class="control column has-text-centered is-4">
+                            <button class="button is-danger is-active" type="reset">
                                 <span class="icon is-small">
                                     <i class="zmdi zmdi-close"></i>
                                 </span>
@@ -215,15 +202,5 @@
                 <div class="column is-1 is-hidden-mobile">&nbsp;</div>
             </div>
         </form>
-
-
-
-
-
-
-
-
-
-
     </div>
 </section>

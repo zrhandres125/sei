@@ -63,13 +63,13 @@
                         &nbsp; Bienestar
                     </a>
 
-                    <a class="navbar-item" href="#">
+                    <a class="navbar-item" href="?page=ind_calidadh/indCalidad">
                         <span class="icon is-small">
-                            <i class="zmdi zmdi-attachment-alt"></i>
+                            <i class="zmdi zmdi-book"></i>
                         </span>
                         &nbsp; Calidad del huevo
                     </a>
-                    <a class="navbar-item" href="#">
+                    <a class="navbar-item" href="?page=ind_productividad/indProductividad">
                         <span class="icon is-small">
                             <i class="zmdi zmdi-archive"></i>
                         </span>
